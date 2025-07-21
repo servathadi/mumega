@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation builds
+docs/_build/
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.coverage.*
+
+# Local development files
+local_*
+temp_*
+test_*_local.py
+
+# Admin app development versions (keeping only final)
+admin_app.py
+simple_admin_app.py
+working_admin_app.py
+
+# Status documentation (development only)
+TERMINAL_ISSUES_FIXED.md
+PLATFORM_READY.md
+DEPLOYMENT_STATUS.md
